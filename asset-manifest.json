@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/BrackApp/static/css/main.fd0f81e5.css",
+    "main.js": "/BrackApp/static/js/main.3ade6419.js",
+    "static/js/787.6198041c.chunk.js": "/BrackApp/static/js/787.6198041c.chunk.js",
+    "static/media/logo.svg": "/BrackApp/static/media/logo.77ebd7e5df2cace023787c2790912b25.svg",
+    "index.html": "/BrackApp/index.html",
+    "static/media/plus.svg": "/BrackApp/static/media/plus.cda2d3a1fc59332c670d538ff07f715e.svg",
+    "static/media/minus.svg": "/BrackApp/static/media/minus.2cabe57944e76e616642dcadbd5fa955.svg",
+    "main.fd0f81e5.css.map": "/BrackApp/static/css/main.fd0f81e5.css.map",
+    "main.3ade6419.js.map": "/BrackApp/static/js/main.3ade6419.js.map",
+    "787.6198041c.chunk.js.map": "/BrackApp/static/js/787.6198041c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd0f81e5.css",
+    "static/js/main.3ade6419.js"
+  ]
+}
