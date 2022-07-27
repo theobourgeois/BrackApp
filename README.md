@@ -1,2 +1,4 @@
 # BrackApp
-### Tournament bracket maker
+### Simple and customizable tournament bracket maker
+
+https://theobourgeois.github.io/BrackApp/
