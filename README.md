@@ -1,2 +1,2 @@
-#BrackApp
-##Tournament bracket maker
+# BrackApp
+### Tournament bracket maker
