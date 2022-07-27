@@ -1,0 +1,28 @@
+.contender-node-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1em;
+    width: 10em;
+    height: 4em;
+    border: solid black;
+    background-color: azure;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.contender-node-container > input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contender-node-container > h3 {
+    color: white;
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+
+

@@ -1,0 +1,25 @@
+.bracket-pair-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.bracket-node-connector-line{
+    border: 4px solid black;
+    border-left: none;
+    position: absolute;
+    transform: translate(5em);
+    width: 14.2em;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.bracket-node-connector-line > div{
+    border-bottom: 4px solid black;
+    width: 100px;
+    transform: translate(104px);    
+}

@@ -1,0 +1,31 @@
+.zoom-controls-container{
+    display: flex;
+    align-items: center;
+    margin: 1em;
+    background-color: var(--secondary);
+    z-index: 10;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.plus-icon-container > img{
+    transform: scale(0.8);
+}
+
+.plus-icon-container, .minus-icon-container{
+    transition: 500ms;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus-icon-container:hover,.minus-icon-container:hover {
+    background-color: rgb(99, 99, 99);
+    border-radius: 40px;
+}
+
+.minus-icon-container > img{
+    transform: scale(0.8);
+}

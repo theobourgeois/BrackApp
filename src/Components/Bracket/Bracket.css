@@ -1,0 +1,84 @@
+.bracket-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+}
+
+.right-side{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+
+.round-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.winner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.winner-node{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    min-width: 20em;
+    height: 8em;
+    border: solid black;
+    background-color: azure;
+    z-index: 2;  
+}
+
+.winner-node > h3 {
+    color: white;
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 2px black);
+}
+
+.winner-and-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    
+}
+
+.bracket-title-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin-top: 4em;
+}
+
+.bracket-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 58px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-align:center
+}
+
+.bracket-title-container > input {
+    width: max-content;
+}
+
+

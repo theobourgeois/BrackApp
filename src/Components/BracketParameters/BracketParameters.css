@@ -1,0 +1,64 @@
+.bracket-parameters-container{
+    position:fixed; 
+    width:100%; 
+    height:70px; 
+    background-color: var(--header); 
+    padding:5px; 
+    bottom: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 9;
+    user-select: none;
+}
+
+.contender-number-conainer{
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn-container > button{
+    background-color: var(--secondary);
+    color: white;
+    font-weight: 600;
+    border-radius: 3px;
+    height: 2em;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1em;
+}
+
+.contender-number-options{
+    margin-left: 1em;   
+}
+
+.contender-number-options > label{
+    margin-right: 0.5em;  
+    font-weight: 500; 
+}
+
+
+.contender-number-options > select{
+    height: 2em;
+    width: fit-content;
+}
+
+
+
+
+.tools-zoom{
+    display: flex;
+}
+
+.logo-container > img{
+    width: 200px;
+    height: 100px;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
