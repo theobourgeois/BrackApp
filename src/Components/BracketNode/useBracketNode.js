@@ -68,6 +68,17 @@ export const useBracketNode = (node) => {
 
             newRounds[col][row].nodes[pairIndex] = nextNode;
         }
+        const finalRoundIndex = node.right ? 1 : 0 
+        const newFinalRound = finalRound
+
+        if(finalRound.nodes[finalRoundIndex].id === node.id){
+            newFinalRound.nodes[finalRoundIndex].color = color.hex
+        }
+        if(finalRound.winner.id === node.id){
+            newFinalRound.winner.color = color.hex
+        }
+        setFinalRound({...newFinalRound})
+
         if (node.right) setRightRounds([...newRounds]);
         else setLeftRounds([...newRounds]);
     };

@@ -64,6 +64,7 @@ export const Tools = () => {
         newFinalRound.nodes[0].title = ""
         newFinalRound.nodes[1].title = ""
         newFinalRound.winner.title = ""
+        newFinalRound.winner.color = "white"
         newFinalRound.winner.id = idgen.next().value
 
         setFinalRound({ ...newFinalRound })
