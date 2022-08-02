@@ -9,7 +9,7 @@ export const Bracket = ({ contenderCount, zoom }) => {
     const [doneEditingTitle, setDoneEditingTitle] = useState(false)
     const { leftRounds, rightRounds, finalRound } = useBracket(contenderCount)
     const { bgColor } = useContext(BackgroundColorContext)
-    const [title, setTitle] = useState(localStorage.getItem("title"))
+    const [title, setTitle] = useState("Bracket Title")
 
 
     const zoomStyle = {
